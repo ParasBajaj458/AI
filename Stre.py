@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Groq API key
-API_KEY = st.secrets["API_KEY],
+API_KEY = st.secrets["API_KEY"],
 
 client = OpenAI(
     api_key=API_KEY,
